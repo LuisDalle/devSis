@@ -10,12 +10,12 @@ $idade = $_REQUEST['idade'];
 $email = $_REQUEST['email'];
 $statement = $pdo->prepare($sql);
 
-//$statement->bindParam(":nome", $nome);
-//$statement->bindParam(":idade", $idade);
-//$statement->bindParam(":email", $email);
-//$statement->bindParam(":id", $id);
-$statement->execute([':nome' => $nome, ':idade' => $idade, ':email' => $email, ':id' => $id]);
-
+$statement->bindParam(":nome", $nome);
+$statement->bindParam(":idade", $idade);
+$statement->bindParam(":email", $email);
+$statement->bindParam(":id", $id);
+//$statement->execute([':nome' => $nome, ':idade' => $idade, ':email' => $email, ':id' => $id]);
+$statement->execute();
  
 header("Location: index.php");
 ?>
