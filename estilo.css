@@ -1,0 +1,113 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão para todo o site */
+    font-size:x-large;
+    background-color: #f4f4f4; /* Cor de fundo geral */
+    margin: 20; /* Remove as margens padrão */
+    padding: 20; /* Remove o preenchimento padrão */
+  }
+  
+  /* Estilo para o cabeçalho do site */
+  header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+  }
+  
+  /* Estilo para links de navegação */
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+    color: #fff; /* Cor do texto dos links de navegação */
+    margin: 0 20px; /* Espaçamento horizontal entre os links */
+    font-size: 18px; /* Tamanho da fonte dos links de navegação */
+  }
+  
+  /* Estilo para o conteúdo principal */
+  main {
+    max-width: 800px; /* Largura máxima do conteúdo principal */
+    margin: 20px auto; /* Centraliza o conteúdo principal */
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+    background-color: #fff; /* Cor de fundo do conteúdo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para rodapé do site */
+  footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px; /* Espaçamento interno do rodapé */
+  }
+  
+  /* Estilo para links no rodapé */
+  footer a {
+    color: #fff; /* Cor dos links no rodapé */
+    text-decoration: underline; /* Sublinhado nos links no rodapé */
+  }
+
+  /* Estilo para tabelas */
+table {
+    width: 100%; /* Torna a tabela responsiva */
+    border-collapse: collapse; /* Remove espaços entre as células da tabela */
+    margin-bottom: 20px; /* Espaçamento inferior entre as tabelas */
+    font-size: 16px; /* Tamanho da fonte do texto da tabela */
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  table th {
+    background-color: #333; /* Cor de fundo do cabeçalho da tabela */
+    color: #fff; /* Cor do texto do cabeçalho da tabela */
+    font-weight: bold; /* Texto em negrito no cabeçalho da tabela */
+    padding: 10px; /* Espaçamento interno do cabeçalho da tabela */
+    text-align: left; /* Alinhamento do texto à esquerda no cabeçalho da tabela */
+  }
+  
+  /* Estilo para as células da tabela */
+  table td {
+    padding: 10px; /* Espaçamento interno das células da tabela */
+    border-bottom: 1px solid #ddd; /* Linha de separação entre as células */
+  }
+  
+  /* Estilo para linhas alternadas na tabela */
+  table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+  }
+
+ /* Estilo para inputs de texto */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%; /* Largura total */
+  padding: 0px; /* Espaçamento interno */
+  margin-bottom: 10px; /* Espaçamento inferior */
+  border: 1px solid #ddd; /* Borda com cor de separação */
+  border-radius: 4px; /* Cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilo para inputs de botão (por exemplo, botões de envio e reset) */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+  background-color: #333; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remove a borda */
+  border-radius: 4px; /* Cantos arredondados */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor do mouse ao passar por cima */
+  transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+/* Estilo para inputs de botão quando o mouse estiver sobre eles */
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background-color: #555; /* Nova cor de fundo ao passar o mouse */
+}
