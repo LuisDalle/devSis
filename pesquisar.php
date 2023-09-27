@@ -33,7 +33,7 @@
     <title>Document</title>
 </head>
 <body>
-
+    <a href="logout.php">Sair</a>
     <form method="get" action="inserir.php">
 
     <input type="hidden" name="id_pessoa"           value="<?php echo $dadosEdit != null ? $dadosEdit->id_pessoa  : '' ?>">
